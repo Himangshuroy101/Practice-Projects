@@ -1,0 +1,88 @@
+.container {
+    width: 1555px;
+    height: 700px;
+    
+  
+    background-color: #05ffff81;
+    padding-left: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 75px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 25px;
+  }
+  
+  h1 {
+    padding-left: 1px;
+    padding-top: 20px;
+    
+  }
+  #advice{
+    font-size: 20px;
+    margin-left: 75px;
+    margin-top: 25px;
+    color: rgb(0, 0, 0);
+  }
+  button:hover{
+    background-image: linear-gradient(rgb(244, 128, 128), white);
+  
+  }
+  nav {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 2rem;
+    border-bottom: solid 1px #aaa;
+    background-color: #e3d4d4;
+  }
+  
+  nav a {
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: solid 1px rgb(22, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    
+  }
+  a:hover{
+    background-image: linear-gradient(rgb(164, 93, 93), white);
+  }
