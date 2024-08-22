@@ -17,3 +17,7 @@ Welcome to my **Practice Projects** repository! This is a collection of small pr
   - **CSS**: For basic styling and layout.
   - **JavaScript**: For the logic behind color switching and event handling.
 
+
+### 2. **BMI Calculator**
+
+- **Description**: This is a simple BMI (Body Mass Index) Calculator web application that calculates and displays BMI based on user input. The project helps in enhancing my front-end development skills and understanding of basic web application functionality.
