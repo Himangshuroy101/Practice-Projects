@@ -21,7 +21,7 @@ html, body{
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
   }
 
-  .cookieHeading {
+  .description {
     font-size: 1.2em;
     font-weight: 800;
     color: rgb(26, 26, 26);
@@ -33,7 +33,7 @@ html, body{
     flex-direction: row;
   }
 
-  .acceptButton {
+  .startButton {
     width: 80px;
     height: 30px;
     background-color: #7b57ff;
@@ -45,7 +45,7 @@ html, body{
     border-radius: 20px;
   }
   
-  .declineButton {
+  .stopButton {
     width: 80px;
     height: 30px;
     background-color: rgb(218, 218, 218);
@@ -57,16 +57,16 @@ html, body{
     border-radius: 20px;
   }
   
-  .declineButton:hover {
+  .stopButton:hover {
     background-color: #ebebeb;
     transition-duration: .2s;
   }
   
-  .acceptButton:hover {
+  .startButton:hover {
     background-color: #9173ff;
     transition-duration: .2s;
   }
-  
+
   nav {
     display: flex;
     flex-wrap:wrap;
